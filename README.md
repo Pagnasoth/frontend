@@ -62,7 +62,8 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- For Lovable deployments, open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click Share → Publish.
+- To deploy to Vercel, see `Docs/DEPLOYMENT.md`. When connecting the repo on Vercel, set the Build Command to `npm run vercel-build` and the Output Directory to `dist`.
 
 ## Can I connect a custom domain to my Lovable project?
 
